@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 # 4-hidden_discovery.py
-
+# Gedeon Obae Gekonge <gideonobae@gmail.com>
 
 if __name__ == "__main__":
-    """Print names defined by hidden_4 module."""
+    """Print all names defined by hidden_4 module."""
     import hidden_4
 
     names = dir(hidden_4)
