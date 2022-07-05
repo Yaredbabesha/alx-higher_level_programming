@@ -14,5 +14,4 @@ load_JSON = __import__('6-load_from_json_file').load_from_json_file
 lisst = []
 if os.path.exists('add_item.json'):
     lisst = load_JSON('add_item.json')
-
 save_JSON(lisst + arg_list, "add_item.json")
